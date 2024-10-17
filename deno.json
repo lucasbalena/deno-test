@@ -4,6 +4,5 @@
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"
-  },
-"bin":"index.ts"
+  }
 }

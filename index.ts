@@ -1,3 +1,10 @@
-import hello from "./hello.ts";
+#!/usr/bin/env deno --allow-read --allow-env
 
-hello("Lucas");
+import hello from "./hello.ts";
+import "jsr:@std/dotenv/load";
+
+hello(
+  Deno.env.get(
+    "NAME",
+  ) || "Lucas",
+);

@@ -1,0 +1,20 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/dotenv@*": "0.225.2"
+  },
+  "jsr": {
+    "@std/dotenv@0.225.2": {
+      "integrity": "e2025dce4de6c7bca21dece8baddd4262b09d5187217e231b033e088e0c4dd23"
+    }
+  },
+  "remote": {
+    "https://raw.githubusercontent.com/lucasbalena/deno-test/refs/heads/main/hello.ts": "8680bcf6ed946977912ca43784f3a3201506e4cfc73cdb5b3ce5d726eeb720a2",
+    "https://raw.githubusercontent.com/lucasbalena/deno-test/refs/heads/main/index.ts": "5bc66ba0946897c9e9a635b73e5e23adab9b8c1f07625c0760666960dd7558b0"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1"
+    ]
+  }
+}
